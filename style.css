@@ -13,7 +13,7 @@
 }
 html {
   font-size: 16px;
-  background-color: var(--Charcoal_Grey);
+  background-color: var(--Dark_Slate_Grey);
 }
 main {
   width: 100%;
@@ -125,7 +125,7 @@ form {
   }
   img {
     order: 1;
-    content: url("/assets/images/illustration-sign-up-desktop.svg");
+    content: url("assets/images/illustration-sign-up-desktop.svg");
   }
   .text-container * {
     margin-left: 0;
