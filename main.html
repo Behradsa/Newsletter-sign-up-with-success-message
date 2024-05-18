@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <main>
+      <img src="assets\images\illustration-sign-up-mobile.svg" alt="header" />
+      <div class="text-container">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+
+        <form id="email-form" action="/success/success.html">
+          <div id="top-of-email-box">
+            <label for="email" id="email-label">Email address</label>
+            <label for="email" id="error">Valid email requierd</label>
+          </div>
+
+          <input
+            name="email"
+            id="email-box"
+            type="text"
+            placeholder="email@company.com"
+          />
+
+          <button type="submit" id="email-button">
+            Subscribe to mounthly newsletter
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
