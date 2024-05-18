@@ -1,5 +1,5 @@
 const email_text = localStorage.getItem("email");
 document.getElementById("email").innerText = email_text;
 function closer() {
-  window.location.href = "../main.html";
+  window.location.href = "../index.html";
 }
